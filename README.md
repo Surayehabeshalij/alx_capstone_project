@@ -6,7 +6,7 @@ Technologies Used HTML, CSS, JavaScript, and frameworks like React for interacti
 
 Roadmap Below are roadmaps for my personal portfolio website; - a) Initial Setup and Launch: b) User Experience and Design c) Content Creation and Refinement d) Analytics and Insights e) Performance Optimization Future Enhancements Below are future enhancements for my portfolio website; - a) Interactive Features b) Language and Localization c) Client or Project Management d) Accessibility e) Social Media Integration f) Mobile App g) Email Newsletter Signup
 
-Contact information For more information use the contact below; - Name: Amos Tungu Email: amostungu1@gmail.com Github: https://github.com/amostungu Twitter: amostungu (@amos_tungu) / X (twitter.com)
+Contact information For more information use the contact below; - Name: Amos Tungu Email: surafelshemsu@gmail.com Github: https://github.com/Surayehabeshalij Twitter: Surayehabesha (@Surayehabesha) /(twitter.com)
         Include screenshots or a link to a live demo if available. Visual representations can help readers understand the project’s appearance and functionality.
     Roadmap and future enhancements:
         Share any future plans or potential improvements for the project. This could include additional features, performance optimizations, or scalability considerations.
