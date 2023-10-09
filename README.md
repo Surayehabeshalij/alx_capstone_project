@@ -11,8 +11,8 @@ Contact information For more information use the contact below; - Name: Amos Tun
     Roadmap and future enhancements:
         Share any future plans or potential improvements for the project. This could include additional features, performance optimizations, or scalability considerations.
         
-        Work flowChart
+Work flowChart
         ![CAPSTONE(flowchart)](https://github.com/Surayehabeshalij/alx_capstone_project/assets/137759541/21edc57d-7c8d-40aa-a937-c3b0b625b12a)
-        Project Prototype
+Project Prototype
         
 
