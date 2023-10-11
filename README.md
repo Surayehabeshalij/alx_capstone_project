@@ -1,15 +1,27 @@
 # alx_capstone_project  (PERSONAL INFORMATION AND PROTFOLIO Website project page description)
 
-    Project Overview:
-        Personal Portfolio Website Project Description My personal portfolio website aims to present the following key elements: About me: The homepage will contain a brief introduction of me, highlighting my name, my profession, and summary of my skills and goals. Project: This section shows my best work, projects, or achievements. Each project item will include a title, description, images, and links to the full project or related resources. Skills: My personal portfolio website will include a viewable version of my resume or CV. This section provides detailed information about my educational background, work experience, skills, and certifications. Contact Information: A contact page or section will allow visitors to get in touch with me. I will include a contact form, email address, phone number, and links to professional social media profiles like LinkedIn and Twitter. To sum up this project aim to show my skills, improve and update all projects I own or have done. Features and Functionality Features of my personal portfolio website are Responsive Design and Navigation Menu. Users will be able to access and look good on various devices, including desktops, tablets and smartphones. Also, users will be able to navigate easily to another section of the website.
-Technologies Used HTML, CSS, JavaScript, and frameworks like React for interactivity will be used. MySQL will be used for database whenever needed. Cloud hosting will be for web hosting service. Also, Git will be used for tracking changes to codebase. Roadmap and future enhancements
+   Project Overview:
 
-Roadmap Below are roadmaps for my personal portfolio website; - a) Initial Setup and Launch: b) User Experience and Design c) Content Creation and Refinement d) Analytics and Insights e) Performance Optimization Future Enhancements Below are future enhancements for my portfolio website; - a) Interactive Features b) Language and Localization c) Client or Project Management d) Accessibility e) Social Media Integration f) Mobile App g) Email Newsletter Signup
+Personal Portfolio Website
+     A portfolio website is a curated, online space that showcases your best work. It's one of the most practical and memorable ways to share your work with press, potential collaborators or employers. Much like your PDF portfolio, a portfolio website can be used when applying for jobs or internships.The best portfolio websites are not only visually appealing but also effectively communicate your skills, experience, and unique value proposition. Regularly update your portfolio with new projects and keep the content fresh to reflect your ongoing growth and development.
+Features and Functionality:
+   A portfolio website can offer a range of features and functionalities to enhance the user experience and effectively showcase your work. Here are some common features you may consider incorporating into your portfolio website:
+    1. Home Page: The home page serves as the first point of contact for        visitors.  It should provide a brief overview of your portfolio and capture   the attention of users with visually appealing elements. 
+    2. About Me: An "About Me" page provides an opportunity to introduce myself and share my background, skills, and experiences. Use this section to highlight your expertise, professional journey, and any unique qualities that set you apart.    
+Technologies Used:
+    
+    Frontend: HTML, CSS, JavaScript
+    Backend: Flask (Python)
+    External API: Edamam API
+Contact Information:
 
-Contact information For more information use the contact below; - Name: Amos Tungu Email: surafelshemsu@gmail.com Github: https://github.com/Surayehabeshalij Twitter: Surayehabesha (@Surayehabesha) /(twitter.com)
-        Include screenshots or a link to a live demo if available. Visual representations can help readers understand the project’s appearance and functionality.
-    Roadmap and future enhancements:
-        Share any future plans or potential improvements for the project. This could include additional features, performance optimizations, or scalability considerations.
+    Author: Surafel Shemsu
+    Email: Surafelshemsu@gmail.com
+    Portfolio: on working
+    LinkedIn: http://linkedin.com/in/Surayehabesha
+    GitHub: https://github.com/Surayehabeshalij
+
+     
         
 Work flowChart
         
