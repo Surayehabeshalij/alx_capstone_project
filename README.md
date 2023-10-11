@@ -12,20 +12,16 @@ Technologies Used:
     
     Frontend: HTML, CSS, JavaScript
     Backend: Flask (Python)
-    External API: Edamam API
 Contact Information:
 
-    Author: Surafel Shemsu
-    Email: Surafelshemsu@gmail.com
-    Portfolio: on working
-    LinkedIn: http://linkedin.com/in/Surayehabesha
-    GitHub: https://github.com/Surayehabeshalij
+        Author: Surafel Shemsu
+        Email: Surafelshemsu@gmail.com
+        Portfolio: on working
+        LinkedIn: http://linkedin.com/in/Surayehabesha
+        GitHub: https://github.com/Surayehabeshalij
 
      
         
-Work flowChart
-        
-![CAPSTONE(flowchart)](https://github.com/Surayehabeshalij/alx_capstone_project/assets/137759541/2d2586b7-1dd1-42b5-bc4a-65ad69c8537a)
 
      
 Project Prototype
