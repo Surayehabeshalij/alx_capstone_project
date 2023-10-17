@@ -81,6 +81,7 @@ What are you doing here?! you sneaky developer...
         </div>
     </header>
     <!-- header ends here -->
+
     <main>
        
         <!-- hamburger -->
@@ -96,18 +97,65 @@ What are you doing here?! you sneaky developer...
         <div class="mobiletogglemenu" id="mobiletogglemenu">
             <div class="emptyarea" id="emptyarea"></div>
             <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
-                <a href="#home" tabindex="0" aria-label="Home menu button">
+                <a href="index.html" tabindex="0" aria-label="Home menu button">
                     <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">&#60;/Home&#62;</li></a>
-                <a href="#about" tabindex="0" aria-label="about menu button">
+                <a href="about.html" tabindex="0" aria-label="about menu button">
                 <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about"onclick="hidemenubyli()">&#60;/AboutMe&#62;</li></a>
-                <a href="#skills" tabindex="0" aria-label="skills menu button">
+                <a href="skills.html" tabindex="0" aria-label="skills menu button">
                 <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills"onclick="hidemenubyli()">&#60;/Skills&#62;</li></a>
-                <a href="#projects" tabindex="0" aria-label="projects menu button">
+                <a href="projects.html" tabindex="0" aria-label="projects menu button">
                 <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">&#60;/Projects&#62;</li></a>
                 
             </ul>
         </div>
-        <!-- landing page ends here -->
+        <!-- mobile toggle menu ends -->
+        <div class="fakenavbar"></div>
+        <section class="landing-page-container" id="home">
+           
+              
+              
+            <div class="text-content">
+                <article id="hello-friend"data-aos="fade-up"data-aos-delay="0"><p class="jello">ሰ</p><p class="jello">ላ</p><p class="jello">ም</p><p class="jello"><p class="jello">(</p><p class="jello">)</p><p class="jello">;</p>&nbsp;<p class="jello">I</p><p class="jello">'</p><p class="jello">m</p></article>
+                <article id="name" data-aos="fade-up"data-aos-delay="200"><p class="jello">S</p><p class="jello">U</p><p class="jello">R</p><p class="jello">A</p><p class="jello">F</p><p class="jello">E</p><p class="jello">L</p>&nbsp;<p class="jello">T</p><p class="jello">E</p><p class="jello">S</p><p class="jello">S</p><p class="jello">E</p><p class="jello">M</p><p class="jello">A</p><p class="jello">.</p></article>
+
+
+                <article id="work" data-aos="fade-up"data-aos-delay="400"><div><p class="jello">I</p></div><div><p class="jello">l</p><p class="jello">o</p><p class="jello">v</p><p class="jello">e</p></div><div><p class="jello">c</p><p class="jello">o</p><p class="jello">d</p><p class="jello">i</p><p class="jello">n</p><p class="jello">g</p><p class="jello">!</p><p class="jello">!</p><p class="jello">!</p></div></article>
+                <p id="info-para" data-aos="fade-up"data-aos-delay="600">"I am a dedicated professional working in the IT department of a private company. With a passion for technology and a drive for innovation, I thrive in this dynamic and ever-evolving field. As a member of the IT team, I am committed to delivering top-notch solutions and ensuring the smooth operation of our organization's digital infrastructure."<br> 
+                <div class="contact-btn-div"data-aos="fade-up"
+                data-aos-delay="800">
+                
+                    <a href="contact.html" tabindex="-1">
+                        <button class="letsTalkBtn">
+                            <p class="letsTalkBtn-text">Let's Talk!</p>
+                            <span class="letsTalkBtn-BG"></span>
+                          </button></a>
+                    <div class="setting-container" id="setting-container">
+                        <input type="checkbox" id="switchforsetting" onclick="settingtoggle()">
+
+                        <label for="switchforsetting" id="labelforsetting"tabindex="0" aria-label="settings for sound and appearance"></label>
+
+                      <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+                        <input type="checkbox" id="switchforvisualmode"
+                        onclick="visualmode()">
+                        <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0" aria-label="switch appearance"></label>
+                      </div>
+
+                    <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+                        <input type="checkbox" id="switchforsound" onclick="playpause()">
+                        <label for="switchforsound" id="labelforsound"tabindex="0" aria-label="switch sound"></label>
+                      </div> 
+                      </div><!-- setting div ends -->
+                   </div><!-- contact-btn-div -->
+                   
+            </div>
+            <!-- Resume button -->
+      <button class="resume-btn" id="resume-btn">
+  
+        <div class="sign"><svg viewBox="0 0 640 512"><path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"/></svg></div>
+        
+        <div class="text">Resume</div>
+      </button>
+        </section>
         <section class="about-section-container" id="about" data-aos="fade-up">
             <div class="about-section">
                 <div class="about-heading"><article class="about-heading-article" tabindex="0"aria-label="About me heading">&#60;/AboutMe&#62;</article><p class="aboutHeadingP"></p></div>
