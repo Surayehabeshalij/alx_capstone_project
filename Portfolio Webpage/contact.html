@@ -1,0 +1,83 @@
+<!-- contact.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Page</title>
+  <style>
+    .error-message {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+
+  <form action="{{ url_for('contact') }}" method="POST" id="contact-form">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+    <span class="error-message" id="name-error"></span>
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+    <span class="error-message" id="email-error"></span>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <span class="error-message" id="message-error"></span>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <script>
+    // Form validation
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      var nameInput = document.getElementById('name');
+      var emailInput = document.getElementById('email');
+      var messageInput = document.getElementById('message');
+
+      var nameError = document.getElementById('name-error');
+      var emailError = document.getElementById('email-error');
+      var messageError = document.getElementById('message-error');
+
+      var isValid = true;
+
+      // Clear previous error messages
+      nameError.textContent = '';
+      emailError.textContent = '';
+      messageError.textContent = '';
+
+      // Validate name field
+      if (nameInput.value.trim() === '') {
+        nameError.textContent = 'Please enter your name.';
+        isValid = false;
+      }
+
+      // Validate email field
+      if (emailInput.value.trim() === '') {
+        emailError.textContent = 'Please enter your email.';
+        isValid = false;
+      } else if (!isValidEmail(emailInput.value.trim())) {
+        emailError.textContent = 'Please enter a valid email address.';
+        isValid = false;
+      }
+
+      // Validate message field
+      if (messageInput.value.trim() === '') {
+        messageError.textContent = 'Please enter your message.';
+        isValid = false;
+      }
+
+      if (!isValid) {
+        event.preventDefault(); // Prevent form submission if validation fails
+      }
+    });
+
+    // Helper function to validate email format
+    function isValidEmail(email) {
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+  </script>
+</body>
+</html>
