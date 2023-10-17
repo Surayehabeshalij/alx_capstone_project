@@ -124,6 +124,7 @@ What are you doing here?! you sneaky developer...
                 </div>
             </div>
         </section>
+    </main>
         <!-- about section ends  -->
         <footer>
         
@@ -152,6 +153,22 @@ What are you doing here?! you sneaky developer...
     
         </footer>
         <!-- footer ends here -->
-        </main>
+        
         </body>
-</html>
+        <script src="main.js"></script> 
+        <!-- for aos animation -->
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init();
+            </script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+        <script>
+        
+          document.getElementById("resume-btn").addEventListener("click", function () {
+            var fileUrl = "src/pdf/Surafel Shemsu resume.pdf";
+            saveAs(fileUrl, "Resume.pdf");
+          });
+        </script>
+        
+        </html>
