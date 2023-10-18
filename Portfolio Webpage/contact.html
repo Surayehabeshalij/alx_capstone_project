@@ -28,7 +28,7 @@ What are you doing here?! you sneaky developer...
     <meta name="twitter:url" content="" >
     <meta name="twitter:card" content="" > -->
 
-    <title>Sura Man | Portfolio</title>
+    <title>Sura Man | Contact Page</title>
     <style>
         .error-message {
           color: red;
@@ -119,8 +119,8 @@ What are you doing here?! you sneaky developer...
   
 </head>
 <body>
-  <h1>Contact Us</h1>
-
+  <h1>Contact Me</h1>
+  <div class="info-div">
   <form action="{{ url_for('contact') }}" method="POST" id="contact-form">
     <label for="name">Your Name:</label>
     <input type="text" id="name" name="name" required>
@@ -136,7 +136,7 @@ What are you doing here?! you sneaky developer...
 
     <input type="submit" value="Submit">
   </form>
-
+  </div>
   <script>
     // Form validation
     document.getElementById('contact-form').addEventListener('submit', function(event) {
