@@ -25,7 +25,7 @@ def contact():
         # Send email
         sender_email = 'your_sender_email@gmail.com'
         sender_password = 'your_sender_email_password'
-        recipient_email = 'your_recipient_email@gmail.com'
+        recipient_email = 'surafelshemsu@gmail.com'
 
         smtp_server = 'smtp.gmail.com'
         smtp_port = 587
