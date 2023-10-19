@@ -23,8 +23,8 @@ def contact():
             return render_template('contact.html', error='Please enter your message.')
 
         # Send email
-        sender_email = 'your_sender_email@gmail.com'
-        sender_password = 'your_sender_email_password'
+        sender_email = 'surafelshemsu@gmail.com'
+        sender_password = 'azxc boid tbdp flvb '
         recipient_email = 'surafelshemsu@gmail.com'
 
         smtp_server = 'smtp.gmail.com'
