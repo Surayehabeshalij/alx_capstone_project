@@ -18,7 +18,7 @@
     /* Input styles */
     input {
         background-color: #ffffff;
-        width: 30%;
+        width: 70%;
         margin-left: 12%;
         font-size: 20px;
         padding: 16px 16px;
@@ -29,7 +29,7 @@
     /* Textarea styles */
     textarea {
         background-color: #ffffff;
-        width: 30%;
+        width: 70%;
         margin-left: 12%;
         padding: 16px 16px;
         border-radius: 10px;
